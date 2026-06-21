@@ -24,4 +24,7 @@ A browser-based simple pokemon battle game, cloned from Pokémon FireRed, made u
 - More battle logic
 
 # Author 
-Panda9Box
+pandaabox
+
+
+ENJOY :)
