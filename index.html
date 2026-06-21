@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéBattle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="battleground">
+        <div class="hp-container a_hidden" id="arcanine-hp-container">
+            <span class="name hp-container-first-children">ARCANINE</span>
+            <span class="gender hp-container-first-children">&#9794;</span>
+            <span class="lv hp-container-first-children">Lv30</span>
+            <div class="hp-bar">
+                <span class="status-eff arcanine-status-eff"></span>
+                <span class="hp-text">
+                    HP 
+                    <span class="max-hp"><span class="hp" id="arcanine-hp"></span></span>
+                </span>
+            </div>
+        </div>
+        <img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/arcanine.png" alt="Arcanine" id="arcanine"
+        class="sprite a_hidden">
+        <img src="https://img.pokemondb.net/sprites/firered-leafgreen/back-normal/pikachu.png" alt="Pikachu"
+        id="pikachu" class="sprite p_hidden">
+        <div class="hp-container p_hidden" id="pikachu-hp-container">
+            <span class="name hp-container-first-children">PIKACHU</span>
+            <span class="gender hp-container-first-children">&#9794;</span>
+            <span class="lv hp-container-first-children">Lv28</span>
+            <div class="hp-bar">
+                <span class="status-eff pikachu-status-eff"></span>
+                <span class="hp-text">
+                    HP 
+                    <span class="max-hp"><span class="hp" id="pikachu-hp"></span></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="cmd-menu">
+        <div id="first-border">
+            <div id="ques">
+                <span id="ques-span">What will PIKACHU do?</span>
+            </div>
+        </div>
+        <div id="sec-border">
+            <div id="options">
+                <span class="options selected" id="fight">FIGHT</span>
+                <span class="options" id="bag">BAG</span>
+                <span class="options" id="pokemon-opt">POKéMON</span>
+                <span class="options" id="run">RUN</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
